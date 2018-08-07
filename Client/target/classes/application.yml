@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Client
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8110/eureka/
+server:
+  port: 8080
