@@ -2,18 +2,18 @@
 Microservices architecture allows to avoid monolith application for large system. It provide loose coupling between collaborating processes which running independently in different environments with tight cohesion.
 
 # Microservices Advantages
-Smaller code base is easy to maintain.
-Easy to scale as individual component.
-Technology diversity i.e. we can mix libraries, databases, frameworks etc.
-Fault isolation i.e. a process failure should not bring whole system down.
-Better support for smaller and parallel team.
-Independent deployment
+Smaller code base is easy to maintain.</br>
+Easy to scale as individual component.</br>
+Technology diversity i.e. we can mix libraries, databases, frameworks etc.</br>
+Fault isolation i.e. a process failure should not bring whole system down.</br>
+Better support for smaller and parallel team.</br>
+Independent deployment</br>
 Deployment time reduce
 # Microservices Disadvantages
-Difficult to achieve strong consistency across services
-ACID transactions do not span multiple processes.
-Distributed System so hard to debug and trace the issues
-Greater need for end to end testing
+Difficult to achieve strong consistency across services</br>
+ACID transactions do not span multiple processes.</br>
+Distributed System so hard to debug and trace the issues.</br>
+Greater need for end to end testing.</br>
 Required cultural changes in across teams like Dev and Ops working together even in same team.
 # Types of microservices
 -Stateful microservices
